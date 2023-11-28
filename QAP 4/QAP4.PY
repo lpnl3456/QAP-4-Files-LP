@@ -328,6 +328,7 @@ while True:
     firstPaymentDate = invoiceDate + datetime.timedelta(days = 30)
     firstPaymentDateDsp = firstPaymentDate.strftime("%Y-%M-%d")
     print(f"                                       FirstPayment Date:              {firstPaymentDateDsp:>10s}")
+    print(f"                                       ------------------------------------------")
 
     print()
     print(f"                                    Previous Claims")
